@@ -10,11 +10,23 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@aws-cdk/assert": "1.83.0",
-    "aws-cdk": "1.83.0",
+    "@aws-cdk/assert": "1.86.0",
+    "aws-cdk": "1.86.0",
     "jest": "^26.4.2"
   },
   "dependencies": {
-    "@aws-cdk/core": "1.83.0"
+    "@aws-cdk/aws-apigateway": "^1.86.0",
+    "@aws-cdk/aws-apigatewayv2": "^1.86.0",
+    "@aws-cdk/aws-apigatewayv2-integrations": "^1.86.0",
+    "@aws-cdk/aws-certificatemanager": "^1.86.0",
+    "@aws-cdk/aws-cloudfront": "^1.86.0",
+    "@aws-cdk/aws-cloudfront-origins": "^1.86.0",
+    "@aws-cdk/aws-lambda": "^1.86.0",
+    "@aws-cdk/aws-lambda-nodejs": "^1.86.0",
+    "@aws-cdk/aws-route53": "^1.86.0",
+    "@aws-cdk/aws-s3": "^1.86.0",
+    "@aws-cdk/aws-s3-deployment": "^1.86.0",
+    "@aws-cdk/core": "1.86.0",
+    "from": "^0.1.7"
   }
 }

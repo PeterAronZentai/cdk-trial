@@ -1,0 +1,2 @@
+GET https://today.zed.codes/api/aaa
+Content-Type: application/json
